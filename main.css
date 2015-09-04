@@ -33,5 +33,27 @@ html {
 .bargraph-bar {
 	background-color: #3333ff;
 	color:white;
-
+}
+.lightbox-outer {
+	position: relative;
+	width:700px;
+	background-color: #353535;
+	height:500px;
+}
+.lightbox-inner {
+	position: absolute;
+	background-color: white;
+	width:500px;
+	height: 250px;
+	border-radius: 5px;
+	margin:125px 100px;
+	padding: 10px;
+}
+.lightbox-button {
+	background-color: #ad3333;
+	text-decoration: none;
+	color:white;
+	margin-left: 390px;
+	padding: 5px 30px;
+	border-radius: 5px
 }
