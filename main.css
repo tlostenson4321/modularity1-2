@@ -1,5 +1,37 @@
+html {
+	font-family: sans-serif;
+}
 .table {
-	border:1px solid lightgrey;
 	width: 75%;
 	text-align: center;
+}
+.table-row {
+	text-align: left;
+}
+.table-border {
+	border-bottom: 1px solid lightgrey;
+}
+.column {
+	width: 200px;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	font-size: 10px;
+	color:grey;
+	text-align: center;
+}
+.larger {
+	font-size: 30px;
+	font-weight: bold;
+	color:black;
+}
+.bargraph {
+	font-size: 15px;
+}
+.bar {
+	width:500px;
+}
+.bargraph-bar {
+	background-color: #3333ff;
+	color:white;
+
 }
